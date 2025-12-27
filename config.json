@@ -1,0 +1,32 @@
+{
+  "include_state": true,
+  "include_bias": false,
+  "time_delay": {
+    "enabled": false,
+    "apply_on_x": true,
+    "n_delays": 0,
+    "tau": 1
+  },
+  "rbf": {
+    "enabled": false,
+    "type": "gauss",
+    "n_centers": 0,
+    "kernel_width": 1.0,
+    "polyharmonic_coeff": 1.0,
+    "centers": []
+  },
+  "custom_features": [],
+  "custom_features_signatures": [],
+  "gates": {
+    "enabled": false,
+    "gates_as_features": false,
+    "items": []
+  },
+  "trajectory_horizon": 100,
+  "edmdc_params": {
+    "lambda_dyn": 1e-06,
+    "lambda_dec": 1e-06
+  },
+  "lift_raw_input": true,
+  "bilinear_zxu": false
+}

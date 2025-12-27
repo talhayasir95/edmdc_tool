@@ -1,3 +1,5 @@
-scipy
 numpy
 dash
+scikit-learn
+scipy
+matplotlib
